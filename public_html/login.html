@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <title>Acesso ao "sistema"</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/home.css"/>
+        <style>
+            .form-signin {
+                width: 100%;
+                max-width: 330px;
+                padding: 15px;
+                margin: auto;
+            }
+            .form-signin .checkbox {
+                font-weight: 400;
+            }
+            .form-signin .form-control {
+                position: relative;
+                box-sizing: border-box;
+                height: auto;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        </style>
+    </head>
+    <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="text-center mb-auto">
+                <h1 class="cover-heading">Taverna do Bruno</h1>
+            </header>
+
+            <!--
+            <section class="inner cover">
+                <h1 class="cover-heading">Cover your page.</h1>
+                <p class="lead">
+                    Cover is a one-page template for building simple and beautiful home pages.
+                    Download, edit the text, and add your own fullscreen background photo to make it your own.
+                </p>
+                <p class="lead">
+                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                </p>
+            </section>
+            -->
+            <main role="main" class="inner cover">
+                <!--<h1 class="cover-heading">Taverna do Bruno</h1>-->
+                <!--<p class="lead">
+                    Tente passar pelo sistema de segurança:
+                </p>-->
+                <form class="lead form-signin">
+                    <!--<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>-->
+                    <p class="mb-3 font-weight-normal">Tente passar pela "segurança"</p>
+                    <!--<label for="inputEmail" class="sr-only">Email address</label>-->
+                    <input type="email" id="email" class="form-control" placeholder="Email" required autofocus>
+                    <!--<label for="inputPassword" class="sr-only">Password</label>-->
+                    <input type="password" id="password" class="form-control" placeholder="Password" required>
+                    <!--<div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>-->
+                    <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
+                    <a href="pages/home.html" class="btn btn-lg btn-outline-light">Go!</a>
+                    <!--<p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>-->
+                </form>
+                <!--<p class="lead">
+                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                </p>-->
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>
+                        Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, 
+                        by <a href="https://twitter.com/mdo">@mdo</a>.
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script src="../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>
