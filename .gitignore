@@ -1,2 +1,3 @@
-/test
-nbproject
+nbproject/
+nbproject/private/
+test/
